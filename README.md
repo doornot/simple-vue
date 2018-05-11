@@ -7,3 +7,10 @@
 
 ### 2、fork：canfoo/self-vue (v3)
 并解决了 /canfoo/self-vue/issues/3 描述的问题。
+
+### 3、参考文章
+剖析Vue原理&实现双向绑定MVVM - 前端足迹 - SegmentFault 思否
+
+### 4、实现双向绑定：Proxy比defineproperty对比
+参考issue的一些简单例子
+
