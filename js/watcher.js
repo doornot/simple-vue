@@ -18,6 +18,7 @@ Watcher.prototype = {
         }
     },
     get: function() {
+        // 类(Dep)的静态属性
         Dep.target = this;  // 缓存自己
         var value = eval('this.vm.data.' + this.exp); // 强制执行监听器里的get函数
         Dep.target = null;  // 释放自己
