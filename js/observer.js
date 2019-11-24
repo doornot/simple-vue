@@ -3,6 +3,7 @@ function Observer(data) {
     this.walk(data);
 }
 
+// 监视对象
 Observer.prototype = {
     walk: function(data) {
         var self = this;
@@ -40,6 +41,7 @@ function observe(value, vm) {
     return new Observer(value);
 };
 
+// 依赖收集器
 function Dep () {
     this.subs = [];
 }
